@@ -627,7 +627,7 @@ footer {
 /************* Media Queries ************/
 
 /*********480px************/
-@media (min-width: 480px) and (max-width: 699px)  {
+@media (min-width: 480px) and (max-width: 699px) and (orientation: landscape) {
   .img-container {
     width: 60%;
   }
@@ -646,7 +646,7 @@ footer {
 }
 
 /***** 700px to 1024 ****/
-@media (min-width: 700px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 700px) and (max-width: 1024px)  {
   body {
     padding: 0 3rem;
     position: relative;
