@@ -547,7 +547,6 @@ header {
 .frontend h4,
 .backend h4,
 .other h4 {
-  font-family: cursive;
   font-size: 0.8rem;
   color: var(--main-orange);
   text-align: left;
