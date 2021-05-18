@@ -513,7 +513,7 @@ header {
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 900;
-  background: linear-gradient(90deg, rgb(65, 74, 107), rgb(128, 128, 128));
+  background: linear-gradient(90deg, var(--main-orange), rgb(255, 165, 0));
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
