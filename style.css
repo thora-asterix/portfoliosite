@@ -122,14 +122,13 @@ header {
   flex: 0 0 75%;
 }
 
-
 .menu-button {
   flex: 0 0 25%;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 2;
-  padding: 1rem 0;
+  padding: 1.5rem 0;
 }
 
 .menu-button a {
@@ -138,7 +137,7 @@ header {
 }
 .menu-button a i {
   font-size: 1.8rem;
-  color: var(--dark-grey)
+  color: var(--dark-grey);
 }
 
 /********** Modal Container ***********/
@@ -269,7 +268,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  
 }
 
 /******** Projects **********/
@@ -285,7 +283,7 @@ header {
 .projects-container {
   height: 80vh;
   width: 75%;
-  background-color: rgb(0,0,0);
+  background-color: rgb(0, 0, 0);
   /* margin-left: 1rem; */
   display: flex;
   align-items: center;
@@ -367,7 +365,6 @@ header {
   justify-content: center;
 }
 
-
 .img-container {
   width: 75%;
   background-color: #fff;
@@ -433,7 +430,7 @@ header {
 }
 
 .about-container button:focus {
-  color: rgb(0,0,0);
+  color: rgb(0, 0, 0);
 }
 
 .about-container button:hover {
@@ -441,7 +438,7 @@ header {
 }
 
 .about-container button i {
-  color: rgb(0,0,0);
+  color: rgb(0, 0, 0);
   cursor: pointer;
   margin-left: 3px;
 }
@@ -528,7 +525,7 @@ header {
 .skills-container {
   flex: 0 0 75%;
   /* background-color: rgba(211, 211, 211, 0.2); */
-  background-color: rgb(0,0,0);
+  background-color: rgb(0, 0, 0);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -570,20 +567,18 @@ header {
 
 .container-six {
   height: 50vh;
-  background-color: rgb(0,0,0);
-  background-image:  linear-gradient(
-    30deg,
-    rgba(208, 77, 26, 0.165),
-    rgba(0, 0, 0, 0.8)
-  ),
+  background-color: rgb(0, 0, 0);
+  background-image: linear-gradient(
+      30deg,
+      rgba(208, 77, 26, 0.165),
+      rgba(0, 0, 0, 0.8)
+    ),
     url(img/computer-bg-shadow-color.svg);
-  background-attachment: fixed; 
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-
 }
-
 
 /******** Footer *******/
 
@@ -662,10 +657,6 @@ footer {
     background-color: #fff;
   }
 
-  .menu-button {
-    background: #fff;
-  }
-
   .menu-container {
     background-color: #fff;
   }
@@ -675,6 +666,8 @@ footer {
   }
 
   .menu-button {
+    background: #fff;
+    padding: 0.5rem 0;
     justify-content: center;
   }
 
@@ -790,6 +783,7 @@ footer {
 
   .menu-button {
     justify-content: center;
+    padding: 0.5rem 0;
   }
 
   .menu-button a i {
@@ -822,7 +816,6 @@ footer {
 
   .about-container {
     height: 100vh;
-   
   }
 
   .about-container .left {
@@ -902,6 +895,8 @@ footer {
 
   .menu-button {
     justify-content: center;
+    background: #fff;
+    padding: 0.5rem 0;
   }
 
   .menu-button a i {
