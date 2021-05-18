@@ -119,21 +119,9 @@ header {
 }
 
 .menu-container h1 {
-  font-size: 1.4rem;
-  letter-spacing: 1.25rem;
-  padding: 1.25rem 0 1.25em 4.4rem;
-  height: 100%;
   flex: 0 0 75%;
-  z-index: 2;
-  color: var(--dark-grey);
 }
 
-.menu-container h1 a {
-  display: inline-block;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: var(--dark-grey);
-}
 
 .menu-button {
   flex: 0 0 25%;
@@ -141,7 +129,7 @@ header {
   justify-content: center;
   align-items: center;
   z-index: 2;
-  padding: 1.25rem 0;
+  padding: .5rem 0;
 }
 
 .menu-button a {
@@ -683,9 +671,6 @@ footer {
   }
 
   .menu-container h1 {
-    font-size: 1.1rem;
-    letter-spacing: 1.25rem;
-    padding: 1.25rem 0 1.25rem 4.4rem;
     flex: 0 0 75%;
   }
 
@@ -694,7 +679,7 @@ footer {
   }
 
   .menu-button a i {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .container-two {
@@ -800,9 +785,6 @@ footer {
   }
 
   .menu-container h1 {
-    font-size: 1.1rem;
-    letter-spacing: 1.25rem;
-    padding: 1.25rem 0 1.25rem 4.4rem;
     flex: 0 0 75%;
   }
 
@@ -915,9 +897,6 @@ footer {
   }
 
   .menu-container h1 {
-    font-size: 1.1rem;
-    letter-spacing: 1.25rem;
-    padding: 1.25rem 0 1.25rem 4.4rem;
     flex: 0 0 75%;
   }
 
