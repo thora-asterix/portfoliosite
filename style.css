@@ -627,7 +627,7 @@ footer {
 /************* Media Queries ************/
 
 /*********480px************/
-@media (min-width: 480px) {
+@media (min-width: 480px) and (max-width: 699px)  {
   .img-container {
     width: 60%;
   }
