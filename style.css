@@ -426,7 +426,7 @@ header {
   font-weight: inherit;
   text-decoration: none;
   column-rule: rgb(128, 128, 128);
-  margin-left: 2rem;
+  padding-left: 2rem;
 }
 
 .about-container button:focus {
