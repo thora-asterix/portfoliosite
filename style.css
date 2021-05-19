@@ -768,12 +768,12 @@ footer {
   }
 
   .menu-button {
-    padding: 1rem 0;
+    padding: 2rem 0;
     justify-content: center;
   }
 
   .menu-button a i {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
 
@@ -867,11 +867,11 @@ footer {
 
   .menu-button {
    
-    padding: 0.5rem 0;
+    padding: 2rem 0;
   }
 
   .menu-button a i {
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
 
  
