@@ -648,7 +648,7 @@ footer {
 /*********************/
 @media (min-width: 520px) and (max-width: 720px) and (orientation: landscape) {
   body {
-    padding: 0 3rem;
+    padding: 0 3rem 3rem;
     position: relative;
   }
 
