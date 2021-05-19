@@ -846,8 +846,9 @@ footer {
     font-size: 0.7rem;
     color: rgb(128, 128, 128);
     line-height: 1.25rem;
-    padding-top: 0.62rem;
-    padding-left: 0;
+    padding-top: 8rem;
+    justify-content: center;
+    flex: 0 0 33%;
   }
 
   .skills-title {
@@ -898,12 +899,6 @@ footer {
     flex: 1;
   }
 
-  .skills-container {
-    flex: 0 0 80%;
-    flex-direction: row;
-
-    padding-top: 20%;
-  }
 
 }
 
