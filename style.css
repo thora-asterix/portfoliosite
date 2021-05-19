@@ -673,6 +673,14 @@ footer {
   .menu-button a i {
     font-size: 1.4rem;
   }
+  .menu-modal ul {
+
+    margin-top: 3rem;
+  }
+  
+  .menu-modal ul li {
+    height: 4rem;
+  }
 
   .container-two {
     /* height: 30vh; */

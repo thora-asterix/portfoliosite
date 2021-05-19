@@ -6,7 +6,6 @@ const openMenu = document.querySelector(".menu-button");
 const closeMenu = document.querySelector(".close-menu-modal");
 const menuItems = document.querySelectorAll(".menu-item");
 
-screen.orientation.lock("landscape-secondary");
 
 
 openMenu.addEventListener('click', ()=>{
