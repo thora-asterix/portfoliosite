@@ -38,16 +38,16 @@ const animation1 = gsap.timeline();
 gsap.registerPlugin(ScrollTrigger);
 
 animation1
-  .to(".black-cover-animation", {
-    width: 0,
-    x: -50,
-    zindex: -1,
-    duration: 1.5,
-    ease: "sine",
-  })
-  .to("#cover-cog", { duration: 1.5, fontSize: "2rem" }, "<")
-  .to("#cover-cog", { display: "none" })
-  .from(".menu-container", { duration: 0.5, y: -50 })
+  // .to(".black-cover-animation", {
+  //   width: 0,
+  //   x: -50,
+  //   zindex: -1,
+  //   duration: 1.5,
+  //   ease: "sine",
+  // })
+  // .to("#cover-cog", { duration: 1.5, fontSize: "2rem" }, "<")
+  // .to("#cover-cog", { display: "none" })
+  .from(".menu-container", { duration: 1, y: -50 })
   .from(".path", { y: -20, opacity: 0, stagger: { each: 0.1 } })
   .from("#landing-heading-1", { opacity: 0, duration: 0.5, x: -800, y: 500 })
   .from("#landing-heading-2", { duration: 0.5, opacity: 0 });
@@ -63,16 +63,16 @@ animation1
       scrub: 2,
     },
   })
-  .from(".projects-container", {
-    x: "-12rem",
-    duration: 2,
-    scrollTrigger: {
-      trigger: ".container-three",
-      start: "top 98%",
-      end: "top 1%",
-      scrub: 2,
-    },
-  })
+  // .from(".projects-container", {
+  //   x: "-12rem",
+  //   duration: 2,
+  //   scrollTrigger: {
+  //     trigger: ".container-three",
+  //     start: "top 98%",
+  //     end: "top 1%",
+  //     scrub: 2,
+  //   },
+  // })
   .from(".projects-title", {
     y: "12rem",
     duration: 4,

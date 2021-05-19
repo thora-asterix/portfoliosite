@@ -295,16 +295,15 @@ header {
   list-style: none;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .projects-container ul li {
-  /* font-family: "Righteous", cursive; */
   display: flex;
+  margin-bottom: 1rem;
   font-size: 1rem;
   color: rgb(211, 211, 211);
   letter-spacing: 3px;
-  /* font-weight: 200; */
   align-items: center;
   text-transform: lowercase;
 }
@@ -648,7 +647,7 @@ footer {
 /*********************/
 @media (min-width: 520px) and (max-width: 720px) and (orientation: landscape) {
   body {
-    padding: 0 3rem 3rem;
+    padding: 0 1rem 1rem;
     position: relative;
   }
 
@@ -671,7 +670,7 @@ footer {
   }
 
   .menu-button a i {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
   }
   .menu-modal ul {
 
@@ -801,7 +800,7 @@ footer {
   }
 
   .menu-button a i {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
   }
 
   .container-two {
@@ -890,7 +889,7 @@ footer {
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   body {
-    padding: 0 3rem 3rem;
+    padding: 0 1rem 1rem;
     position: relative;
   }
 
@@ -916,7 +915,7 @@ footer {
   }
 
   .menu-button a i {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
   }
 
   .container-two {
@@ -1002,7 +1001,7 @@ footer {
 
 @media (min-width: 1281px) {
   body {
-    padding: 0 3rem 3rem;
+    padding: 0 1rem 1rem;
     position: relative;
   }
 
@@ -1029,7 +1028,7 @@ footer {
   }
 
   .menu-button a i {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
   }
 
   .container-two {
