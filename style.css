@@ -743,6 +743,7 @@ footer {
 
   .about-content {
     flex: 0 0 60%;
+    padding-right: 1rem;
   }
 
   .skills-container {
