@@ -627,7 +627,7 @@ footer {
 /************* Media Queries ************/
 
 /*********480px************/
-@media (min-width: 480px) and (max-width: 699px) and (orientation: landscape) {
+@media (min-width: 480px) and (max-width: 699px)  {
   .img-container {
     width: 60%;
   }
@@ -644,6 +644,127 @@ footer {
     padding-left: 4rem;
   }
 }
+
+/*********************/
+@media (min-width: 520px) and (max-width: 720px) and (orientation: landscape) {
+  body {
+    padding: 0 3rem;
+    position: relative;
+  }
+
+  header {
+    background-color: #fff;
+  }
+
+  .menu-container {
+    background-color: #fff;
+  }
+
+  .menu-container h1 {
+    flex: 0 0 75%;
+  }
+
+  .menu-button {
+    background: #fff;
+    padding: 0.5rem 0;
+    justify-content: center;
+  }
+
+  .menu-button a i {
+    font-size: 1.4rem;
+  }
+
+  .container-two {
+    /* height: 30vh; */
+  }
+
+  .projects-container {
+    flex: 0 0 80%;
+  }
+
+  .projects-title {
+    flex: 1;
+  }
+
+  .projects-title h3 {
+    font-weight: 900;
+    font-size: 1.3rem;
+    margin: 0 auto;
+  }
+
+  .projects-container ul li {
+    font-size: 0.7rem;
+    font-weight: 900;
+    margin-left: 1.25rem;
+  }
+  
+  .projects-container i {
+    font-size: 2.5rem;
+  }
+  .about-container {
+    height: 100vh;
+  }
+
+  .about-container .left {
+    z-index: 1;
+    flex: 0 0 80%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about-container .right {
+    flex: 1;
+  }
+  .about-container .right h3 {
+    font-size: 1.3rem;
+    margin: 0 auto;
+  }
+
+  .about-container p:first-of-type {
+    margin-left: 0.3rem;
+    padding: 1.9rem 1.25em;
+  }
+
+  .img-container {
+    flex: 0 0 35%;
+    margin: 0 0 0 2rem;
+    max-width: 250px;
+    background-color: #fff;
+    z-index: 1;
+  }
+
+  .about-content {
+    flex: 0 0 60%;
+  }
+
+  .skills-container {
+    flex: 0 0 80%;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .frontend,
+  .backend,
+  .other {
+    font-size: 0.7rem;
+    color: rgb(128, 128, 128);
+    line-height: 1.25rem;
+    padding: 3rem 0 0 0;
+ 
+  }
+
+  .skills-title {
+    flex: 1;
+  }
+
+  .skills-title h3 {
+    font-size: 1.5rem;
+    margin: 0 auto;
+  }
+}
+
+
 
 /***** 700px to 1024 ****/
 @media (min-width: 700px) and (max-width: 1024px)  {
