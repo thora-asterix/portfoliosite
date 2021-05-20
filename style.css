@@ -697,6 +697,12 @@ footer {
   .menu-button a i {
     font-size: 2rem;
   }
+  
+  .item1 .website-logo {
+    width: 65%;
+    /* background-color:blue; */
+  }
+  
 
  .projects-container {
    justify-content: center;
