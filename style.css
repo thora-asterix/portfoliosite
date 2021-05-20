@@ -21,16 +21,7 @@ html {
     font-size: 14px;
   }
 }
-/* @media only screen and (min-width: 570px) {
-  html {
-    font-size: 15px;
-  }
-}
-@media only screen and (min-width: 620px) {
-  html {
-    font-size: 16px;
-  }
-} */
+
 
 @media only screen and (min-width: 1024px) {
   html {
@@ -719,7 +710,7 @@ footer {
 @media (min-width: 320px) and (max-width: 840px)  and (orientation: landscape) {
   .projects-title h3 {
     font-weight: 900;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 0 auto;
   }
 
@@ -753,7 +744,7 @@ footer {
     flex: 1;
   }
   .about-container .right h3 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 0 auto;
   }
   .img-container {
@@ -816,114 +807,11 @@ footer {
   }
 
   .skills-title h3 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 0 auto;
   }
 
 }
 
-/******************* 741px tp 840px and landscape ************************/
-
-/* @media (min-width: 741px) and (max-width: 840px)  and (orientation: landscape) {
-  .projects-title h3 {
-    font-weight: 900;
-    font-size: 1rem;
-    margin: 0 auto;
-  }
-  .projects-container ul {
-    justify-content: center;
-    margin-left: 2rem;
-  }
-  .projects-container ul li {
-    font-size: 0.8rem;
-    font-weight: 900;
-    margin-left: 1.25rem;
-    margin-bottom: 1rem;
-  }
-
-  .projects-container i {
-    font-size: 1rem;
-  }
-
-  .about-container .left {
-    z-index: 1;
-    flex: 0 0 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .about-container .right {
-    flex: 1;
-  }
-  .about-container .right h3 {
-    font-size: 1rem;
-    margin: 0 auto;
-  }
-  .img-container {
-    flex: 0 0 40%;
-    max-width: 250px;
-     background-color: #fff;
-     margin: 0 2.5rem 0 0;
-     z-index: 1;
-   }
-    
-   .about-content {
-     flex: 0 0 40%;
-     max-width: 250px;
-   }
-   .about-container .left p {
-    font-size: 0.8rem;
-    font-weight: 200;
-    color: rgba(248, 246, 246, 0.945);
-    padding: 1.25rem;
-    letter-spacing: 1px;
-    line-height: 1.7;
-  }
-  .about-container button {
-    color: var(--dark-grey);
-    background-color: var(--main-orange);
-    border: none;
-    padding: 0.5rem;
-    display: inline-block;
-    font-size: 1rem;
-    font-weight: inherit;
-    text-decoration: none;
-    column-rule: rgb(128, 128, 128);
-    padding-left: 2rem;
-  }
-
-  .skills-container {
-    flex: 0 0 80%;
-    flex-direction: row;
-    justify-content: center;
-    margin-left: 0;
-    padding-left: 0;
-  }
-
-  .frontend,
-  .backend,
-  .other {
-    font-size: 0.7rem;
-    color: rgb(128, 128, 128);
-    line-height: 1.25rem;
-    justify-content: center;
-    flex: 0 0 33%;
-    max-width: 250px;
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .skills-title {
-    flex: 1;
-  }
-
-  .skills-title h3 {
-    font-size: 1rem;
-    margin: 0 auto;
-  }
-
-} */
 
 /********* 1281px and above ********/
