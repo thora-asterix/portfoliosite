@@ -710,7 +710,7 @@ footer {
 @media (min-width: 320px) and (max-width: 840px)  and (orientation: landscape) {
   .projects-title h3 {
     font-weight: 900;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin: 0 auto;
   }
 
@@ -744,7 +744,7 @@ footer {
     flex: 1;
   }
   .about-container .right h3 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin: 0 auto;
   }
   .img-container {
@@ -807,7 +807,7 @@ footer {
   }
 
   .skills-title h3 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin: 0 auto;
   }
 
