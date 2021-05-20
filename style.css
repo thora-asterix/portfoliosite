@@ -21,7 +21,7 @@ html {
     font-size: 14px;
   }
 }
-@media only screen and (min-width: 570px) {
+/* @media only screen and (min-width: 570px) {
   html {
     font-size: 15px;
   }
@@ -30,7 +30,7 @@ html {
   html {
     font-size: 16px;
   }
-}
+} */
 
 @media only screen and (min-width: 1024px) {
   html {
@@ -557,10 +557,6 @@ footer {
     width: 60%;
   }
 
-  .container-three {
-    /* align-items: center; */
-  }
-
   .about-container .left p {
     margin: 1rem 0 0 1rem;
   }
@@ -720,7 +716,7 @@ footer {
 
 /************ 320px to 580px and landscape ***************/
 
-@media (min-width: 320px) and (max-width: 740px)  and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 840px)  and (orientation: landscape) {
   .projects-title h3 {
     font-weight: 900;
     font-size: 1rem;
@@ -828,7 +824,7 @@ footer {
 
 /******************* 741px tp 840px and landscape ************************/
 
-@media (min-width: 741px) and (max-width: 840px)  and (orientation: landscape) {
+/* @media (min-width: 741px) and (max-width: 840px)  and (orientation: landscape) {
   .projects-title h3 {
     font-weight: 900;
     font-size: 1rem;
@@ -928,6 +924,6 @@ footer {
     margin: 0 auto;
   }
 
-}
+} */
 
 /********* 1281px and above ********/
