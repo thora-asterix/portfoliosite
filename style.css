@@ -377,6 +377,9 @@ header {
   display: flex;
   align-items: center;
 }
+.about-content {
+  width: 70%
+}
 
 .about-container h3 {
   font-size: 3.5rem;
@@ -620,10 +623,6 @@ footer {
 
   .about-container .left p {
     margin: 1rem 0 0 1rem;
-  }
-
-  .about-content {
-    width: 70%;
   }
 
 
