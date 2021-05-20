@@ -344,6 +344,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
 }
 
 .img-container {
@@ -442,6 +443,7 @@ header {
   background-color: #fff;
   margin: 2rem auto 1rem;
   width: 95%;
+  max-width: 900px;
   height: 100%;
   overflow: auto;
 }
@@ -620,6 +622,11 @@ footer {
     margin: 1rem 0 0 1rem;
   }
 
+  .about-content {
+    width: 70%;
+  }
+
+
   .skills-container {
     padding-left: 4rem;
   }
@@ -650,6 +657,7 @@ footer {
 
   .projects-container {
     flex: 0 0 80%;
+
   }
 
   .projects-title {
@@ -681,6 +689,10 @@ footer {
   .about-container .left {
     z-index: 1;
     flex: 0 0 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 
   .about-container .right {
@@ -691,19 +703,24 @@ footer {
     margin: 0 auto;
   }
 
+ 
   .about-container p:first-of-type {
     margin-left: 0.3rem;
     padding: 1.9rem 1.25em;
   }
 
   .img-container {
-    width: 50%;
-    max-width: 250px;
+   flex: 0 0 40%;
+   max-width: 250px;
     background-color: #fff;
-    margin: 0;
+    margin: 0 5rem 0 0;
     z-index: 1;
   }
-
+   
+  .about-content {
+    flex: 0 0 40%;
+    max-width: 250px;
+  }
   .skills-container {
     flex: 0 0 80%;
     flex-direction: row;
@@ -720,6 +737,7 @@ footer {
     line-height: 1.25rem;
     justify-content: center;
     flex: 0 0 33%;
+    max-width: 250px;
     align-self: stretch;
     display: flex;
     flex-direction: column;
@@ -749,20 +767,9 @@ footer {
     font-size: 2rem;
   }
 
-  .about-container .left {
-    z-index: 1;
-    flex: 0 0 80%;
-    display: flex;
-    flex-direction: row;
-  }
-
-  .img-container {
-    flex: 0 0 50%;
-    max-width: 650px;
-    background-color: #fff;
-    margin: 0 0 0 2rem;
-    z-index: 1;
-  }
+ .projects-container {
+   justify-content: center;
+ }
 
   .about-content {
     flex: 1;
