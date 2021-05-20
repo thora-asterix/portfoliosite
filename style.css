@@ -31,60 +31,17 @@ html {
     font-size: 16px;
   }
 }
-@media only screen and (min-width: 680px) {
-  html {
-    font-size: 17px;
-  }
-}
-@media only screen and (min-width: 720px) {
+
+@media only screen and (min-width: 1024px) {
   html {
     font-size: 18px;
   }
 }
-/* @media only screen and (min-width: 800px) {
-  html {
-    font-size: 19px;
-  }
-}
-
-@media only screen and (min-width: 860px) {
-  html {
-    font-size: 20px;
-  }
-}
-@media only screen and (min-width: 920px) {
-  html {
-    font-size: 21px;
-  }
-}
-@media only screen and (min-width: 1000px) {
-  html {
-    font-size: 22px;
-  }
-}
-
-@media only screen and (min-width: 1080px) {
-  html {
-    font-size: 23px;
-  }
-}
-
-@media only screen and (min-width: 1160px) {
-  html {
-    font-size: 24px;
-  }
-}
-@media only screen and (min-width: 1240px) {
-  html {
-    font-size: 25px;
-  }
-} */
 
 body {
   overflow-x: hidden;
   position: relative;
 }
-
 
 
 /********* Header ***********/
@@ -237,23 +194,6 @@ header {
   flex: 0 0 25%;
 }
 
-/******** Laptop image ********/
-
-/* .container-two {
-  height: 50vh;
-  background-image: linear-gradient(
-      30deg,
-      rgba(208, 77, 26, 0.165),
-      rgba(0, 0, 0, 0.8)
-    ),
-    url(img/laptop-extra-small-black-shadow.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-} */
-
-/******** Projects **********/
-
 .container-three {
   height: 100vh;
   width: 100%;
@@ -266,7 +206,6 @@ header {
   height: 80vh;
   width: 75%;
   background-color: rgb(0, 0, 0);
-  /* margin-left: 1rem; */
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -336,7 +275,6 @@ header {
   display: flex;
 }
 .about-container .left {
-  /* height: 100vh; */
   background-color: rgba(0, 0, 0);
   background-color: var(--main-orange);
   flex: 0 0 75%;
@@ -351,7 +289,6 @@ header {
   width: 75%;
   background-color: #fff;
   padding: 0.3rem;
-  /* margin-top: -25rem; */
   z-index: 1;
   border: 2px solid var(--main-orange);
 }
@@ -611,6 +548,219 @@ footer {
 
 /************* Media Queries ************/
 
+/************ 320px to 580px and landscape ***************/
+
+@media (min-width: 320px) and (max-width: 740px)  and (orientation: landscape) {
+  .projects-title h3 {
+    font-weight: 900;
+    font-size: 1rem;
+    margin: 0 auto;
+  }
+
+  .projects-container {
+    flex: 0 0 80%;
+  }
+  .projects-container ul {
+    justify-content: center;
+    margin-left: 2rem;
+  }
+  .projects-container ul li {
+    font-size: 0.8rem;
+    font-weight: 900;
+    margin-left: 1.25rem;
+    margin-bottom: 1rem;
+  }
+
+  .projects-container i {
+    font-size: 1rem;
+  }
+
+  .about-container .left {
+    z-index: 1;
+    flex: 0 0 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-container .right {
+    flex: 1;
+  }
+  .about-container .right h3 {
+    font-size: 1rem;
+    margin: 0 auto;
+  }
+  .img-container {
+    flex: 0 0 40%;
+    max-width: 250px;
+     background-color: #fff;
+     margin: 0 2.5rem 0 0;
+     z-index: 1;
+   }
+    
+   .about-content {
+     flex: 0 0 40%;
+     max-width: 250px;
+   }
+   .about-container .left p {
+    font-size: 0.8rem;
+    font-weight: 200;
+    color: rgba(248, 246, 246, 0.945);
+    padding: 1.25rem;
+    letter-spacing: 1px;
+    line-height: 1.7;
+  }
+  .about-container button {
+    color: var(--dark-grey);
+    background-color: var(--main-orange);
+    border: none;
+    padding: 0.5rem;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: inherit;
+    text-decoration: none;
+    column-rule: rgb(128, 128, 128);
+    padding-left: 2rem;
+  }
+
+  .skills-container {
+    flex: 0 0 80%;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .frontend,
+  .backend,
+  .other {
+    font-size: 0.7rem;
+    color: rgb(128, 128, 128);
+    line-height: 1.25rem;
+    justify-content: center;
+    flex: 0 0 33%;
+    max-width: 250px;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills-title {
+    flex: 1;
+  }
+
+  .skills-title h3 {
+    font-size: 1rem;
+    margin: 0 auto;
+  }
+
+}
+
+/*******************************************/
+
+@media (min-width: 741px) and (max-width: 840px)  and (orientation: landscape) {
+  .projects-title h3 {
+    font-weight: 900;
+    font-size: 1rem;
+    margin: 0 auto;
+  }
+  .projects-container ul {
+    justify-content: center;
+    margin-left: 2rem;
+  }
+  .projects-container ul li {
+    font-size: 0.8rem;
+    font-weight: 900;
+    margin-left: 1.25rem;
+    margin-bottom: 1rem;
+  }
+
+  .projects-container i {
+    font-size: 1rem;
+  }
+
+  .about-container .left {
+    z-index: 1;
+    flex: 0 0 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-container .right {
+    flex: 1;
+  }
+  .about-container .right h3 {
+    font-size: 1rem;
+    margin: 0 auto;
+  }
+  .img-container {
+    flex: 0 0 40%;
+    max-width: 250px;
+     background-color: #fff;
+     margin: 0 2.5rem 0 0;
+     z-index: 1;
+   }
+    
+   .about-content {
+     flex: 0 0 40%;
+     max-width: 250px;
+   }
+   .about-container .left p {
+    font-size: 0.8rem;
+    font-weight: 200;
+    color: rgba(248, 246, 246, 0.945);
+    padding: 1.25rem;
+    letter-spacing: 1px;
+    line-height: 1.7;
+  }
+  .about-container button {
+    color: var(--dark-grey);
+    background-color: var(--main-orange);
+    border: none;
+    padding: 0.5rem;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: inherit;
+    text-decoration: none;
+    column-rule: rgb(128, 128, 128);
+    padding-left: 2rem;
+  }
+
+  .skills-container {
+    flex: 0 0 80%;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .frontend,
+  .backend,
+  .other {
+    font-size: 0.7rem;
+    color: rgb(128, 128, 128);
+    line-height: 1.25rem;
+    justify-content: center;
+    flex: 0 0 33%;
+    max-width: 250px;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills-title {
+    flex: 1;
+  }
+
+  .skills-title h3 {
+    font-size: 1rem;
+    margin: 0 auto;
+  }
+
+}
+ 
+
 /*********480px************/
 @media (min-width: 480px)  {
   .img-container {
@@ -630,6 +780,7 @@ footer {
     padding-left: 4rem;
   }
 }
+
 
 
 
@@ -712,7 +863,7 @@ footer {
    flex: 0 0 40%;
    max-width: 250px;
     background-color: #fff;
-    margin: 0 5rem 0 0;
+    margin: 0 2.5rem 0 0;
     z-index: 1;
   }
    
