@@ -60,6 +60,7 @@ header {
   align-items: center;
   z-index: 2;
   padding: 1.5rem 0;
+  
 }
 
 .menu-button a {
@@ -140,17 +141,14 @@ header {
 }
 
 .item1 .website-logo {
-  width: 90%;
-  height: 12.5em;
+  width: 80%;
   /* background-color:blue; */
 }
 
-.landing-info {
-  margin-top: -4rem;
-}
+
 
 .landing-info h1 {
-  font-size: 1rem;
+  font-size: .9rem;
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: 400;
@@ -159,7 +157,7 @@ header {
 }
 
 .landing-info h2 {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 400;
   letter-spacing: 1px;
   color: rgb(163, 130, 130);
