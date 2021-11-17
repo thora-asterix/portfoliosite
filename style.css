@@ -22,7 +22,6 @@ html {
   }
 }
 
-
 @media only screen and (min-width: 1024px) {
   html {
     font-size: 18px;
@@ -33,7 +32,6 @@ body {
   overflow-x: hidden;
   position: relative;
 }
-
 
 /********* Header ***********/
 header {
@@ -60,7 +58,6 @@ header {
   align-items: center;
   z-index: 2;
   padding: 1.5rem 0;
-  
 }
 
 .menu-button a {
@@ -72,6 +69,13 @@ header {
   color: var(--dark-grey);
 }
 
+.menu-button a i:hover {
+  color: var(--main-orange);
+}
+
+.menu-button a i:active {
+  color: var(--main-orange);
+}
 /********** Modal Container ***********/
 
 .menu-modal {
@@ -115,6 +119,11 @@ header {
   font-size: 1.5rem;
   font-weight: 900;
   cursor: pointer;
+  transition: color 1s linear;
+}
+
+.menu-modal ul li a:hover {
+  color: var(--dark-grey);
 }
 
 /****** Landing Section **********/
@@ -145,10 +154,8 @@ header {
   /* background-color:blue; */
 }
 
-
-
 .landing-info h1 {
-  font-size: .9rem;
+  font-size: 0.9rem;
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: 400;
@@ -271,7 +278,6 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
 }
 
 .img-container {
@@ -304,7 +310,7 @@ header {
   align-items: center;
 }
 .about-content {
-  width: 70%
+  width: 70%;
 }
 
 .about-container h3 {
@@ -338,6 +344,8 @@ header {
   text-decoration: none;
   column-rule: rgb(128, 128, 128);
   padding-left: 2rem;
+  transition: color 1s linear;
+  cursor: pointer;
 }
 
 .about-container button:focus {
@@ -360,7 +368,7 @@ header {
   z-index: 3;
   left: 0;
   top: 0;
-  width: 100%;
+  width: 70%;
   height: 100%;
   overflow: scroll;
   padding: 1rem;
@@ -536,10 +544,9 @@ footer {
 
 /************* Media Queries ************/
 
-
 /*********480px************/
 
-@media (min-width: 480px)  {
+@media (min-width: 480px) {
   .img-container {
     width: 60%;
   }
@@ -548,21 +555,16 @@ footer {
     margin: 1rem 0 0 1rem;
   }
 
-
   .skills-container {
     padding-left: 4rem;
   }
 }
 
-
-
-
 /***** 700px to 1024 ****/
-@media (min-width: 700px)  {
+@media (min-width: 700px) {
   body {
     position: relative;
   }
-
 
   .menu-container h1 {
     flex: 0 0 75%;
@@ -575,20 +577,24 @@ footer {
 
   .menu-button a i {
     font-size: 1.2rem;
+    transition: color 1s linear;
+  }
+
+  .menu-button a i:hover {
+    color: var(--main-orange);
   }
 
   .item1 .website-logo {
     width: 70%;
     /* background-color:blue; */
   }
-  
+
   .landing-info {
     margin-top: 2rem;
   }
 
   .projects-container {
     flex: 0 0 80%;
-
   }
 
   .projects-title {
@@ -634,20 +640,19 @@ footer {
     margin: 0 auto;
   }
 
- 
   .about-container p:first-of-type {
     margin-left: 0.3rem;
     padding: 1.9rem 1.25em;
   }
 
   .img-container {
-   flex: 0 0 40%;
-   max-width: 250px;
+    flex: 0 0 40%;
+    max-width: 250px;
     background-color: #fff;
     margin: 0 2.5rem 0 0;
     z-index: 1;
   }
-   
+
   .about-content {
     flex: 0 0 40%;
     max-width: 250px;
@@ -686,38 +691,32 @@ footer {
 
 /*********** 1025px ***********/
 
-@media (min-width: 1025px)  {
-
-
+@media (min-width: 1025px) {
   .menu-button {
-   
     padding: 2rem 0;
   }
 
   .menu-button a i {
     font-size: 2rem;
   }
-  
+
   .item1 .website-logo {
     width: 65%;
     /* background-color:blue; */
   }
-  
 
- .projects-container {
-   justify-content: center;
- }
+  .projects-container {
+    justify-content: center;
+  }
 
   .about-content {
     flex: 1;
   }
-
-
 }
 
 /************ 320px to 580px and landscape ***************/
 
-@media (min-width: 320px) and (max-width: 840px)  and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 840px) and (orientation: landscape) {
   .projects-title h3 {
     font-weight: 900;
     font-size: 1.8rem;
@@ -760,16 +759,16 @@ footer {
   .img-container {
     flex: 0 0 40%;
     max-width: 250px;
-     background-color: #fff;
-     margin: 0 2.5rem 0 0;
-     z-index: 1;
-   }
-    
-   .about-content {
-     flex: 0 0 40%;
-     max-width: 250px;
-   }
-   .about-container .left p {
+    background-color: #fff;
+    margin: 0 2.5rem 0 0;
+    z-index: 1;
+  }
+
+  .about-content {
+    flex: 0 0 40%;
+    max-width: 250px;
+  }
+  .about-container .left p {
     font-size: 0.8rem;
     font-weight: 200;
     color: rgba(248, 246, 246, 0.945);
@@ -820,8 +819,6 @@ footer {
     font-size: 1.8rem;
     margin: 0 auto;
   }
-
 }
-
 
 /********* 1281px and above ********/
