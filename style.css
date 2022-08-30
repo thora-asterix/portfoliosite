@@ -33,6 +33,10 @@ body {
   position: relative;
 }
 
+a:visited {
+  color: white;
+}
+
 /********* Header ***********/
 header {
   width: 100%;
